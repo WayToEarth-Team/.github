@@ -1,7 +1,4 @@
-좋습니다 👍 성민님.
-제가 **Way to Earth** 프로젝트의 **README.md 초안**을 간단하게 작성해드릴게요.
 
----
 
 # 🌍 Way to Earth
 
