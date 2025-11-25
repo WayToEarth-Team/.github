@@ -35,22 +35,30 @@
 
 #  2. 주요 기능 요약
 
-### 🚀 러닝 (Real-time Running)
+### 🏃 러닝 (Real-time Running)
+
+
+<img src="https://github.com/user-attachments/assets/74d5185b-aec6-49af-9760-2596982f1218" width="600"/>
+<br>
 
 * GPS 기반 실시간 러닝 추적
 * 워치 연동(Wear OS)
 * 칼만 필터링으로 GPS 노이즈 제거
 * 실시간 페이스/거리/고도/정확도 계산
 
-[여기 러닝 화면 GIF 넣어야 함]
-
 <br>
 
 ### 🗺 여정 & 스탬프 (Journey & Stamp)
+
+<img src="https://github.com/user-attachments/assets/77490a33-b4ca-4c65-ab29-b19bd3a57ed6" width="600"/>
+
 <br>
 <img width="850" height="341" alt="image" src="https://github.com/user-attachments/assets/8fe84469-97c4-41d4-a79b-54ea3efae6b4" />
 
 <img width="732" height="293" alt="image" src="https://github.com/user-attachments/assets/d65c26e5-9d8c-4e29-bf7f-504d7d31bef2" />
+
+
+<p></p>
 
 * 실제 거리 → 가상 여정 진행
 * Landmark 스토리 확인
@@ -64,7 +72,7 @@
 ### 💬 크루 & 소셜 (Crew & Social)
 
 <img width="811" height="364" alt="image" src="https://github.com/user-attachments/assets/104525d7-4e2b-4481-a2a3-528d57b04a0f" />
-
+<p></p>
 * 크루 생성/가입/관리
 * 실시간 채팅(WebSocket)
 * 크루 랭킹 & 성장률
@@ -81,7 +89,9 @@
 * 최근 5회 평균 페이스 기반 코칭
 * 요일/거리/패턴 기반 트렌드 분석
 
-[여기 AI 분석 화면 이미지 넣어야 함]
+<img width="751" height="469" alt="image" src="https://github.com/user-attachments/assets/5afa650a-c03e-40b1-9d42-7fcfbc57c972" />
+<img width="841" height="422" alt="image" src="https://github.com/user-attachments/assets/2cac13a5-a995-4640-879b-fa83a3103bf5" />
+
 
 ---
 
@@ -91,7 +101,6 @@
 
 
 
-요약:
 
 * **Mobile App (React Native)**
 * **Wear OS App (Kotlin)**
@@ -126,7 +135,7 @@
 | **Google Maps API**                          | 러닝 경로 지도 렌더링 및 위치 기반 서비스 제공                                                                   |
 | **Kakao OAuth 2.0**                          | 간편 로그인 제공으로 사용자 유입 장벽 감소                                                                      |
 
-
+<p></p>
 
 ---
 
@@ -171,7 +180,7 @@
 #  6. 기술 스택
 
 <img width="768" height="441" alt="image" src="https://github.com/user-attachments/assets/3d99af18-609a-4bb8-9a48-5705a5610943" />
-
+<p></p>
 
 ## 📱 Frontend (React Native, Expo)
 
@@ -211,10 +220,11 @@
 
 #  7. ERD 구조
 
-<img width="2592" height="1342" alt="image" src="https://github.com/user-attachments/assets/16a1465c-6e8c-4bc1-8683-44e087c531b1" />
+<img width="2092" height="1342" alt="image" src="https://github.com/user-attachments/assets/16a1465c-6e8c-4bc1-8683-44e087c531b1" />
+
+<p></p>
 
 
-요약:
 
 * User 중심의 도메인
 * Running, Journey, Crew, Feed 다중 연관
@@ -440,7 +450,7 @@ WayToEarth는
 러닝 · 여정 · 커뮤니티 · AI를 결합한 **새로운 형태의 러닝 플랫폼**입니다.
 
 우리는 단순 운동 관리가 아니라
-**“러닝을 하나의 여정으로 만드는 경험”**을 만들고자 합니다.
+**러닝을 하나의 여정으로 만드는 경험**을 만들고자 합니다.
 
 앞으로도 더 확장성과 안정성 있는 서비스로 발전할 예정입니다.
 
