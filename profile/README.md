@@ -113,11 +113,7 @@
 #  4. ☁ 시스템 아키텍처
 
 <img width="1312" height="741" alt="image" src="https://github.com/user-attachments/assets/50a84191-c522-46e4-99a0-9ee88d7f3b92" />
-
-## 데이터 흐름
-<img width="550" height="580" alt="image" src="https://github.com/user-attachments/assets/4be73589-54b8-44c1-81ca-51f7fdf7f0b7" />
 <p></p>
-
 
 | **사용 기술 / 서비스 (Tech Stack)**        | **사용 이유 (Reason for Use)**                                                                                  |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -135,9 +131,75 @@
 | **Google Maps API**                          | 러닝 경로 지도 렌더링 및 위치 기반 서비스 제공                                                                   |
 | **Kakao OAuth 2.0**                          | 간편 로그인 제공으로 사용자 유입 장벽 감소                                                                      |
 
+## 데이터 흐름
+<img width="550" height="580" alt="image" src="https://github.com/user-attachments/assets/4be73589-54b8-44c1-81ca-51f7fdf7f0b7" />
+<p></p>
+
+
+
+### **1. Client Layer**
+
+* 사용자가 **모바일 앱(App)** 또는 **Wear OS**에서 요청을 보냅니다.
+
+
+### **2. Network Layer**
+
+* 모든 요청은 **HTTPS** 기반으로 전송됩니다.
+* `Route53`이 도메인(**waytoearth.cloud**)을 라우팅합니다.
+* `ACM(SSL)`이 인증서를 적용하여 암호화된 통신을 유지합니다.
+* 요청은 **ALB(Application Load Balancer)**로 전달됩니다.
+
+
+
+### **3. Load Balancing**
+
+* ALB는 서버 상태를 확인하고 트래픽을
+  **EC2 Blue(8080) / Green(8081)** 인스턴스 중 하나로 분산합니다.
+
+
+
+### **4. Application Layer (EC2)**
+
+* Spring Boot 애플리케이션이 핵심 비즈니스 로직을 처리합니다.
+* 데이터 조회/저장, 인증, AI 분석, 크루 기능 처리 등이 이 레이어에서 수행됩니다.
+
+
+
+### **5. Data Layer**
+
+* **RDS(MariaDB)**
+  → 사용자, 러닝 기록, 크루, 여정, 피드 등 모든 핵심 서비스 데이터 저장
+* **ElastiCache(Redis)**
+  → Refresh Token, 블랙리스트, 랭킹, 캐싱, 세션 등 빠른 처리와 성능 최적화
+
+
+
+### **6. Static File Layer**
+
+* 프로필 이미지, 피드 이미지, 방명록 이미지 등은
+  **CloudFront CDN**을 통해 빠르게 전송됩니다.
+* 캐시가 없으면 CloudFront가 **S3** 원본에서 파일을 조회합니다.
+* 업로드는 Presigned URL 기반으로 클라이언트 → S3 직접 업로드 방식입니다.
+
+
+
+### **7. External Services**
+
+* **FCM** → 러닝 알림, 크루 알림, 피드 반응 등 실시간 푸시 메시지 전송
+* **OpenAI API** → 러닝 데이터 기반 AI 분석 및 코칭 생성
+
+
+
+### **8. Response**
+
+* 모든 처리가 완료되면
+  **EC2 → ALB → HTTPS → App** 순으로 사용자에게 응답이 반환됩니다.
+
+
 <p></p>
 
 ---
+
 
 #  5. 핵심 기능 상세
 
