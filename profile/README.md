@@ -73,6 +73,7 @@
 
 <img width="811" height="364" alt="image" src="https://github.com/user-attachments/assets/104525d7-4e2b-4481-a2a3-528d57b04a0f" />
 <p></p>
+
 * 크루 생성/가입/관리
 * 실시간 채팅(WebSocket)
 * 크루 랭킹 & 성장률
