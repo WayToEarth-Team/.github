@@ -492,7 +492,7 @@
 
 #  10. Team
 
-|FE | FE | BE |
+|BE | Full Stack | FE |
 | :---: | :---: | :---: |
 | 홍성민(팀장) | 이평강 | 정진호 |
 |  <img width="130px" src="https://github.com/user-attachments/assets/4bffbd92-a458-4f8e-99ea-292ec5860b27" /> |  <img width="130px" src="" /> |  <img width="130px" src="" /> |
