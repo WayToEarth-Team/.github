@@ -52,7 +52,7 @@
 
 <img src="https://github.com/user-attachments/assets/77490a33-b4ca-4c65-ab29-b19bd3a57ed6" width="600"/>
 
-<br>
+<p></p>
 <img width="850" height="341" alt="image" src="https://github.com/user-attachments/assets/8fe84469-97c4-41d4-a79b-54ea3efae6b4" />
 
 <img width="732" height="293" alt="image" src="https://github.com/user-attachments/assets/d65c26e5-9d8c-4e29-bf7f-504d7d31bef2" />
@@ -422,10 +422,9 @@
 #  9. API 명세
 
 
+<img src="https://github.com/user-attachments/assets/efe4a1ca-31f4-43c5-8965-09c44e7d7005" width="450"/>
 
-
-
-
+<p></p>
 
 
 
