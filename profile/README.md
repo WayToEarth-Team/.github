@@ -39,7 +39,7 @@
 
 
 <img src="https://github.com/user-attachments/assets/74d5185b-aec6-49af-9760-2596982f1218" width="600"/>
-<br>
+<p></p>
 
 * GPS 기반 실시간 러닝 추적
 * 워치 연동(Wear OS)
@@ -98,7 +98,7 @@
 #  3. 서비스 전체 구조
 
 <img width="627" height="732" alt="image" src="https://github.com/user-attachments/assets/195f9192-2901-4991-b67a-70a9a51777cf" />
-
+<p></p>
 
 
 
@@ -116,7 +116,7 @@
 
 ## 데이터 흐름
 <img width="550" height="580" alt="image" src="https://github.com/user-attachments/assets/4be73589-54b8-44c1-81ca-51f7fdf7f0b7" />
-
+<p></p>
 
 
 | **사용 기술 / 서비스 (Tech Stack)**        | **사용 이유 (Reason for Use)**                                                                                  |
@@ -380,7 +380,7 @@
 > 백엔드 전체 구조 상세 (config, controller, DTO, entity, service 등)
 
 
-<br>
+<p></p>
 
 ## 📱 Frontend Directory
 
@@ -419,7 +419,17 @@
 ---
 
 
-#  9. Team
+#  9. API 명세
+
+
+
+
+
+
+
+
+
+#  10. Team
 
 |FE | FE | BE |
 | :---: | :---: | :---: |
@@ -431,7 +441,7 @@
 
 ---
 
-#  10. License
+#  11. License
 
 본 프로젝트는 **Apache License 2.0**을 따릅니다.
 
@@ -444,7 +454,7 @@ you may not use this file except in compliance with the License.
 
 ---
 
-#  11. 결론
+#  12. 결론
 
 WayToEarth는
 러닝 · 여정 · 커뮤니티 · AI를 결합한 **새로운 형태의 러닝 플랫폼**입니다.
