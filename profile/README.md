@@ -499,7 +499,7 @@
 | 홍성민(팀장) | 이평강 | 정진호 |
 |  <img width="130px" src="https://github.com/user-attachments/assets/4bffbd92-a458-4f8e-99ea-292ec5860b27" /> |  <img width="130px" src="https://github.com/user-attachments/assets/0203bc29-9f60-407f-acb5-6ff5bdbd4c97" /> |   <img src="https://github.com/user-attachments/assets/4636c270-72ba-4c50-9e1d-f3cd06f9d8e0" width="130" alt="정진호 증명사진" /> 
 | 한림대학교 | 한림대학교 | 한림대학교|
-| 빅데이터전공 4학년 | 빅데이터전공 4학년 | 콘텐츠IT전공 3학년|
+| 빅데이터전공 | 빅데이터전공 | 콘텐츠IT전공 |
 | [@hskhsmm](https://github.com/hskhsmm)|[@leepg038292](https://github.com/leepg038292)|[@wjdwlsgh](https://github.com/wjdwlsgh)
 
 ---
