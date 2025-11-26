@@ -98,7 +98,8 @@
 
 #  3. 서비스 전체 구조
 
-<img width="627" height="732" alt="image" src="https://github.com/user-attachments/assets/195f9192-2901-4991-b67a-70a9a51777cf" />
+<img width="627" height="732" alt="image" src="https://github.com/user-attachments/assets/61cb53c2-e928-42b7-a6e0-3d946fb84af3" />
+
 <p></p>
 
 
