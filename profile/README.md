@@ -149,7 +149,7 @@
 * 모든 요청은 **HTTPS** 기반으로 전송됩니다.
 * `Route53`이 도메인(**waytoearth.cloud**)을 라우팅합니다.
 * `ACM(SSL)`이 인증서를 적용하여 암호화된 통신을 유지합니다.
-* 요청은 **ALB(Application Load Balancer)**로 전달됩니다.
+* 요청은 ALB(Application Load Balancer)로 전달됩니다.
 
 
 
