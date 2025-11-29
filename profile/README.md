@@ -90,8 +90,8 @@
 * 최근 5회 평균 페이스 기반 코칭
 * 요일/거리/패턴 기반 트렌드 분석
 
-<img width="751" height="469" alt="image" src="https://github.com/user-attachments/assets/5afa650a-c03e-40b1-9d42-7fcfbc57c972" />
-<img width="841" height="422" alt="image" src="https://github.com/user-attachments/assets/2cac13a5-a995-4640-879b-fa83a3103bf5" />
+<img width="751" height="469" alt="image" src="https://github.com/user-attachments/assets/16af4adb-6ade-4928-98e5-1780a11ac43c" />
+<img width="601" height="402" alt="image" src="https://github.com/user-attachments/assets/2cac13a5-a995-4640-879b-fa83a3103bf5" />
 
 
 ---
