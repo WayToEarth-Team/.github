@@ -114,7 +114,7 @@
 
 #  4. ☁ 시스템 아키텍처
 
-<img width="1312" height="741" alt="image" src="https://github.com/user-attachments/assets/50a84191-c522-46e4-99a0-9ee88d7f3b92" />
+<img width="1312" height="741" alt="image" src="https://github.com/user-attachments/assets/8bff4fdd-0fb5-4624-8747-f5740546b22e" />
 <p></p>
 
 | **사용 기술 / 서비스 (Tech Stack)**        | **사용 이유 (Reason for Use)**                                                                                  |
