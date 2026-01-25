@@ -251,7 +251,6 @@
 * React Native + TypeScript
 * Expo / EAS Build
 * Tanstack Query
-* Zustand
 * react-native-maps
 * Expo-Location
 * Firebase FCM
